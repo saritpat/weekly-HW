@@ -5,7 +5,7 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    if(a >= 80)
+    if(a >= 80 && a <= 100)
     {
         printf("A");
     }
@@ -21,9 +21,13 @@ int main()
     {
         printf("D");
     }
-    else if(a < 50)
+    else if(a < 50 && a >= 0)
     {
         printf("F");
+    }
+    else
+    {
+        printf("Error");
     }
     return 0;
 }
