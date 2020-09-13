@@ -3,8 +3,9 @@
 
 int main()
 {
-    int Num = 2,Sum = 0,Fac = 1;
-    while(Num >= 1 && Num <= 10000)
+    int Num = 2,Sum = 0,Fac = 1,x;
+    scanf("%d",&x);
+    while(Num >= 1 && Num <= x)
     {
         while(Num > Fac)
         {
