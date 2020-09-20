@@ -12,7 +12,7 @@ void draw_ship()
 
 void erase_ship()
 {
-    system("cls");
+    system("clear");
 }
 void gotoxy(int x,int y)
 {
